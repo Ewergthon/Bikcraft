@@ -1,0 +1,66 @@
+body{
+    display: grid;
+    font-family: Arial;
+    background: #f7f7f7;
+}
+
+#titulo{
+    margin-top: 67px;
+    margin-bottom: 79px;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center
+}
+
+.menu a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-right: 81px;
+    margin-bottom: 78px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.contaniner{
+    height: 374px;
+}
+
+#bicicleta{
+    width: 503px;
+    height: 366px;
+}
+
+#tituloBicileta{
+    margin-top: 87px;
+    margin-right: 43px;
+    text-align: right;
+}
+
+#descricao{
+    text-align: right;
+    margin-left: 493px;
+    font-size: 20px;
+    width: 398px;
+}
+
+#verMais{
+    margin-top: 27px;
+    text-decoration: none;
+    width: 135px;
+    padding: 18px 30px 18px 30px;
+    background: #e21;
+    color: white;
+    text-align: right;
+    border-radius: 5px;
+    margin-left: 752px;
+}
